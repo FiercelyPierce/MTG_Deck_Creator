@@ -1,34 +1,34 @@
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
+I am attemping to build a web app that allows me to add cards to my collection of cards and adds those cards to a deck.
 
-{Provide a description the web app that you wrote. Describe how to start a test server on your computer and what website to open up to see the first page of the app.}
+I have a very basic structure of an app that allows me to add cards to a database.
 
-{Describe your purpose for writing this software.}
+I eventually want this app to be capable of managing my real decks that I own.
 
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running (starting the server and navigating through the web pages) and a walkthrough of the code.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/uxtA5mwuk04)
 
 # Web Pages
 
-{Describe each of the web pages you created and how the web app transitions between each of them.  Also describe what is dynamically created on each page.}
+The first webpage displays all of the cards that I have added to my collection. 
+
+The second page shows the details of a given card that you choose.
+
+I also have an admin page that will allow me to make changes and add cards to my collection.
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+I used Django 4.1.5 and Python 10 in Visual Studio Code
 
-{Describe the programming language that you used and any libraries.}
+I have downloaded and using boostrap
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [Django](https://docs.djangoproject.com/en/4.1/intro)
+* [Real Python](https://realpython.com/get-started-with-django-1/#add-bootstrap-to-your-app)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+* Need to fix the problem of the database not working with the admin site correctly
+* Change the display of the cards to be a smaller view
+* Add a third page to add cards to a deck

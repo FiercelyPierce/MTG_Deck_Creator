@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_content %}
+<h1>{{ card.name }}</h1>
+<div class="row">
+    <div class="col-md-8">
+        <img src="{% static card.image %}" alt="" width="100%">
+    </div>
+    <div class="col-md-4">
+        <h5>Abilities:</h5>
+        <p>{{ card.description }}</p>
+        <br>
+        <h5>Card Type & Subtype:</h5>
+        <p>{{ card.card_type }} - {{ card.card_subtype }}</p>
+    </div>
+</div>
+{% endblock %}
